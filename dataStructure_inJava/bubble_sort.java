@@ -8,12 +8,12 @@ boolean flag = false;
 for(int i=0; i<n-1; i++){
     flag = false;
     for(int j = 0; j<n-1-i; j++){
-        if(list[j]>list[j+1]){
+        if(list[j] > list[j+1]){
             temp = list[j];
             list[j] = list[j+1];
             list[j+1] = temp;
-
-            flag = true;
+            
+  flag = true;
         }  
     }
     if( flag = false){
@@ -32,12 +32,7 @@ for(int i = 0; i<n-1; i++){
     BubbleSort(list ,n);
     for(int i = 0; i<n-1; i++){
         System.out.println(list[i]);
+}
 
-    }
-
-
-
-
-
-    }
+ }
 }
