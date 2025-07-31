@@ -3,20 +3,20 @@ package dataStructure_inJava;
 public class bubble_sort {
     public static void BubbleSort(int[] list, int n){
 int temp;
-boolean flag = false;
+int flag = 0;
 
 for(int i=0; i<n-1; i++){
-    flag = false;
+    flag = 0;
     for(int j = 0; j<n-1-i; j++){
         if(list[j] > list[j+1]){
             temp = list[j];
             list[j] = list[j+1];
             list[j+1] = temp;
             
-  flag = true;
+  flag = 1;
         }  
     }
-    if( flag = false){
+    if( flag == 0){
     break;
     }
 }
