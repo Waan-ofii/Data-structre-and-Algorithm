@@ -1,4 +1,4 @@
-package dataStructure_inJava;
+package Data_Structure_inJava;
 
 public class Insertion_sort {
     public static void insertionSort(int list[], int n){

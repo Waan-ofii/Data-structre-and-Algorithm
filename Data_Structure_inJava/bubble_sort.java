@@ -1,5 +1,4 @@
-package dataStructure_inJava;
-
+package Data_Structure_inJava;
 public class bubble_sort {
     public static void BubbleSort(int[] list, int n){
 int temp;
@@ -26,12 +25,13 @@ public static void main(String[] args){
     int n = 6;
     int[] list = {10,5,20,15,30,25};
 for(int i = 0; i<n-1; i++){
-    System.out.println(list[i]);
+    System.out.print(list[i]+ " ");
 
 }
     BubbleSort(list ,n);
+System.out.println("\n sorted one");
     for(int i = 0; i<n-1; i++){
-        System.out.println(list[i]);
+        System.out.print(list[i]+ " ");
 }
 
  }

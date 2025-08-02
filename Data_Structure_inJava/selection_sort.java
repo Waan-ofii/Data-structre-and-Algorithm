@@ -1,4 +1,4 @@
-package dataStructure_inJava;
+package Data_Structure_inJava;
 
 public class selection_sort {
     public static void selectionSort(int list[], int n){
