@@ -1,0 +1,5 @@
+MVI A,0A
+L1: OUT 02
+DCR A
+JNZ L1
+HLT

@@ -1,0 +1,5 @@
+LDA 2001
+CMA ;1's compliment
+ADI 01
+STA 2002
+HLT
