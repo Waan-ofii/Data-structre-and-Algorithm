@@ -1,4 +1,5 @@
 MVI A, 05
 MVI B,03
 ADD B
+OUT 02
 HLT
