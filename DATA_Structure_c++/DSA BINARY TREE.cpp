@@ -248,7 +248,7 @@ int main() {
     binarySearchTree planner; 
     int op; 
     do { 
-        cout << "\n : BST-Based Study Planner \n"; 
+        cout << "\n StudyBuddy: BST-Based Study Planner \n"; 
         cout << "1. Add Study Task (subject + difficulty/due date)\n"; 
         cout << "2. Remove Study Task by Key\n"; 
         cout << "3. Search Task by Key\n"; 
@@ -260,7 +260,7 @@ int main() {
         cout << "9. Show Tree Height\n"; 
         cout << "10. Total Number of Tasks\n"; 
         cout << "11. Number of Leaf Tasks\n"; 
-         
+        cout << "12. Show Group Members\n"; 
         cout << "0. Exit\n"; 
         cout << "Choose an option: "; 
         cin >> op; 
@@ -313,7 +313,13 @@ int main() {
                 break; 
             case 11: 
                 cout << "Number of Leaf Tasks: " << planner.numberofChild() << endl; 
-                break;  
+                break; 
+            case 12: 
+                cout << "\nGroup Members:\n"; 
+                cout << " 1.Tsebel Tsigemeskel....RU1018/16\n"; 
+                cout << " 2.Yabsira Wondimu.......RR1924/15\n"; 
+                cout << " 3.Soreti Daba...........RU1933/15\n"; 
+                break; 
             case 0: 
             cout << "Exiting program. Have a good time studying!\n"; 
                 break; 
